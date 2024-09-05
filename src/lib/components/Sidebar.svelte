@@ -29,13 +29,13 @@
         <iconify-icon
           height="0.8em"
           width="0.8em"
-          icon="flowbite:angle-right-outline"
+          icon="flowbite:angle-left-outline"
         />
       {:else}
         <iconify-icon
           height="0.8em"
           width="0.8em"
-          icon="flowbite:angle-left-outline"
+          icon="flowbite:angle-right-outline"
         />
       {/if}
     </button>

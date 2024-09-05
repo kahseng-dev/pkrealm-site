@@ -11,10 +11,10 @@
 </script>
 
 <aside
-  class="h-screen border-r border-neutral-700 bg-neutral-950"
+  class="h-screen bg-neutral-950 border-r border-neutral-700"
   class:expanded={isExpanded}
 >
-  <div class="flex h-16 items-center pl-4 justify-between">
+  <div class="flex h-16 pl-4 items-center justify-between">
     {#if isExpanded}
       <div in:fade={fadeIn}>
         <BrandName />
@@ -22,7 +22,7 @@
     {/if}
     <button
       class:buttonUnexpanded={!isExpanded}
-      class="flex h-6 w-6 bg-neutral-900 rounded-full border border-neutral-700 mr-4 justify-center items-center"
+      class="flex h-6 w-6 mr-4 bg-neutral-900 rounded-full border border-neutral-700 justify-center items-center"
       on:click={() => (isExpanded = !isExpanded)}
     >
       {#if isExpanded}
@@ -43,7 +43,7 @@
   <section class="flex flex-col mt-8">
     <a
       href="/"
-      class="flex items-center gap-4 p-4 hover:bg-neutral-800 hover:text-neutral-50"
+      class="flex gap-4 p-4 items-center hover:bg-neutral-800 hover:text-neutral-50"
     >
       <iconify-icon
         class="pt-0.5"
@@ -56,7 +56,7 @@
     </a>
     <a
       href="/"
-      class="flex items-center gap-4 p-4 hover:bg-neutral-800 hover:text-neutral-50"
+      class="flex gap-4 p-4 items-center hover:bg-neutral-800 hover:text-neutral-50"
     >
       <iconify-icon
         class="pt-0.5"
@@ -69,7 +69,7 @@
     </a>
     <a
       href="/"
-      class="flex items-center gap-4 p-4 hover:bg-neutral-800 hover:text-neutral-50"
+      class="flex gap-4 p-4 items-center hover:bg-neutral-800 hover:text-neutral-50"
     >
       <iconify-icon
         class="pt-0.5"
@@ -82,7 +82,7 @@
     </a>
     <a
       href="/"
-      class="flex items-center gap-4 p-4 hover:bg-neutral-800 hover:text-neutral-50"
+      class="flex gap-4 p-4 items-center hover:bg-neutral-800 hover:text-neutral-50"
     >
       <iconify-icon
         class="pt-0.5"
@@ -95,7 +95,7 @@
     </a>
     <a
       href="/"
-      class="flex items-center gap-4 p-4 hover:bg-neutral-800 hover:text-neutral-50"
+      class="flex gap-4 p-4 items-center hover:bg-neutral-800 hover:text-neutral-50"
     >
       <iconify-icon
         class="pt-0.5"
@@ -108,7 +108,7 @@
     </a>
     <a
       href="/"
-      class="flex items-center gap-4 p-4 hover:bg-neutral-800 hover:text-neutral-50"
+      class="flex gap-4 p-4 items-center hover:bg-neutral-800 hover:text-neutral-50"
     >
       <iconify-icon
         class="pt-0.5"

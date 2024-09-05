@@ -6,7 +6,7 @@
   <div class="flex h-16 border-b border-neutral-500 items-center pl-4">
     <Logo />
   </div>
-  <section class="flex flex-col h-full text-sm space-y-8 p-8">
+  <section class="flex flex-col text-sm space-y-8 pt-8 pl-8">
     <p>My Account</p>
     <p>Downloads</p>
     <p>Pokédex</p>

@@ -2,7 +2,7 @@
   import Logo from "$lib/components/Logo.svelte";
 </script>
 
-<footer class="p-8 text-center">
+<footer class="p-16 text-center">
   <Logo />
   <p class="mt-8 text-xs font-bold">
     © 2024 PKRealm, All rights reserved.<br />Use of this website signifies

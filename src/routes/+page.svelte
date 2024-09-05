@@ -1,6 +1,6 @@
 <script lang="ts">
   import "./globals.css";
-  import Logo from "$lib/components/Logo.svelte";
+  import Logo from "$lib/components/BrandName.svelte";
 </script>
 
 <div class="p-8">

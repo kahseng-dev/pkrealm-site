@@ -4,7 +4,7 @@
   import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<main class="flex text-neutral-100 bg-neutral-900 h-screen">
+<main class="flex text-neutral-400 bg-neutral-900 h-screen">
   <div>
     <Sidebar />
   </div>

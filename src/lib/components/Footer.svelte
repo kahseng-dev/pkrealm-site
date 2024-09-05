@@ -1,9 +1,9 @@
 <script lang="ts">
-  import Logo from "$lib/components/Logo.svelte";
+  import BrandName from "$lib/components/BrandName.svelte";
 </script>
 
 <footer class="p-16 text-center">
-  <Logo />
+  <BrandName />
   <p class="mt-8 text-xs font-bold">
     © 2024 PKRealm, All rights reserved.<br />Use of this website signifies
     your agreement to the Terms of Service.<br />PKRealm is not produced,
